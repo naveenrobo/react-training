@@ -1,11 +1,11 @@
 import React from 'react';
 
-function App() {
-    return (
-        <div>
-            test
-        </div>
-    )
+import Todo from './Todo';
+
+class App extends React.Component {
+    render() {
+        return <Todo />
+    }
 }
 
 export default App;
